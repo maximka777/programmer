@@ -1,0 +1,194 @@
+.paragraph {
+    font-size: 17px;
+    text-align: justify;
+    border-left: solid 5px #809FFF;
+    padding-left: 5px; 
+}
+
+a {
+    color: black;
+    font-family: 'Courier New';
+    /*font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;*/
+    font-size: 13px;
+}
+
+a:hover{
+    background-color: #809FFF;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #00487D;
+}
+
+.navbar-footer a{
+    color: white;
+    font-family: 'Courier New';
+    font-size: 13px;
+}
+
+.navbar-footer a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.enterform-inputs {
+    text-align: center;
+}
+
+.book-genres-list {
+    text-align: left;
+}
+
+.book-genres-list li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar-menu {
+    margin-bottom: -50px;
+}
+
+.navbar-footer {
+    margin-bottom: -50px;
+}
+
+table {
+    width: 100%;
+}
+
+.text-muted {
+    text-align: right;
+    padding: 10px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 16px;
+}
+html{
+    min-height: 100%;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+hr{
+    color: black;
+    background-color: black;
+}
+
+.book {
+    border-left: #0033CC dotted 2px;
+    margin-bottom: 20px;
+}
+
+
+
+.main {
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    -moz-border-radius: 0 0 10px 10px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 0 0 10px 10px; /* закругл. для старых Chrome и Safari */
+    -khtml-border-radius: 0 0 10px 10px; /* закругл.для брауз.Konquerer сист. Linux */
+    border-radius: 0 0 10px 10px; /* закругление углов для всех, кто понимает */
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: #BFCFFF;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.enterform{
+    text-align: center;
+}
+
+.hello {
+    text-align: center;
+}
+
+.forumtable {
+    background: white;
+    width: 100%;
+    border: 1px solid black; /* Граница вокруг таблицы */
+    /*border-spacing: 7px 5px;*/
+}
+
+td {
+    padding: 5px;
+    border: 0px solid black;   
+}
+
+.theme-comment tr{
+}
+
+.theme-comment {
+    background-color: white;
+    padding: 10px;
+    /*margin-bottom: 10px;*/
+}
+
+.comment-header{
+    border-top: 1px solid #80C9FF; 
+    border-bottom: 1px solid #80C9FF; 
+}
+
+.theme-comment td{
+    vertical-align: center;
+}
+
+.img-theme-comment {
+    /*float: left;*/
+    margin-right: 20px;
+}
+
+.forumtextarea {
+    width: fixed;
+}
+
+thead {
+    background: #E6ECFF;
+}
+
+.user {
+    color: #6666ff;
+}
+
+.pagin {
+    text-align: center;
+}
+
+.pagin li{
+    display: inline;
+}
+
+.reg-form {
+    text-align: center;
+}
+
+.footer {
+    background-color: #00487D;
+}
+
+.footer-a {
+    color: #D9EDF7;
+}
+
+input {
+    width: 100%;
+}
